@@ -1,14 +1,15 @@
 # sapper-template
 
-The default [Sapper](https://github.com/sveltejs/sapper) template, with branches for Rollup and webpack. To clone it and get started:
+The default [Sapper](https://github.com/sveltejs/sapper) template++. Removed some images, cypress, appveyor, semi-colons, some noise and installed an alias plugin into rollup.
 
+## Usage
 ```bash
-# for Rollup
-npx degit "sveltejs/sapper-template#rollup" my-app
-# for webpack
-npx degit "sveltejs/sapper-template#webpack" my-app
+git clone https://github.com/fugroup/sapper-template.git my-app
 cd my-app
-npm install # or yarn!
+rm -rf .git
+git init
+ncu -u
+npm install
 npm run dev
 ```
 
