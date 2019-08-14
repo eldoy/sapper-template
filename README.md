@@ -4,8 +4,8 @@ The default [Sapper](https://github.com/sveltejs/sapper) template++. Removed som
 
 ## Usage
 ```bash
-git clone https://github.com/fugroup/sapper-template.git my-app
-cd my-app
+git clone https://github.com/fugroup/sapper-template.git client
+cd client
 rm -rf .git
 git init
 ncu -u
